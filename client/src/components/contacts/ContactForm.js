@@ -87,7 +87,6 @@ const ContactForm = () => {
             <div>
                 <input
                     type="submit"
-                    value="Add Contact"
                     className="btn tbn-primary btn-block"
                     value={current ? 'Update Contact' : 'Add Contact'}
                 />

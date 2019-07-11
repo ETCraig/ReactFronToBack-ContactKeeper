@@ -24,14 +24,14 @@ const ContactFilter = () => {
     }
 
     return (
-        <Form>
+        <form>
             <input
                 ref={text}
                 type="text"
                 placeholder="Filter Contacts..."
-                onChnage={onChange}
+                onChange={onChange}
             />
-        </Form>
+        </form>
     );
 }
 
