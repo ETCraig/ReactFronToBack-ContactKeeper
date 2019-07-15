@@ -1,9 +1,9 @@
 import React from 'react'
 
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-const NavBar = ({title, icon}) => {
+const NavBar = ({ title, icon }) => {
     return (
         <div className="navbar bg-primary">
             <h1>
