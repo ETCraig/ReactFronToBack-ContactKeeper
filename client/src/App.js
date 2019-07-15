@@ -9,7 +9,7 @@ import NavBar from './components/layout/NavBar';
 import Register from './components/auth/Register';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import AlertState from './context/alert/AlterState';
+import AlertState from './context/alerts/AlertState';
 import AuthState from './context/auth/AuthState';
 import ContactState from './context/contact/ContactState';
 
