@@ -25,7 +25,7 @@ const App = () => {
       <ContactState>
         <AlertState>
           <Router>
-            <Fragment className="App">
+            <Fragment>
               <NavBar />
               <div className="container">
                 <Alerts />
