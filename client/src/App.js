@@ -6,6 +6,7 @@ import Alerts from './components/layout/Alerts';
 import Home from './components/pages/Home';
 import Login from './components/auth/Login';
 import NavBar from './components/layout/NavBar';
+import PrivateRoute from './components/routing/PrivateRoute';
 import Register from './components/auth/Register';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -29,7 +30,7 @@ const App = () => {
               <div className="container">
                 <Alerts />
                 <Switch>
-                  <Route exact path='/' component={Home} />
+                  <PrivateRoute exact path='/' component={Home} />
                   <Route exact path='/about' component={About} />
                   <Route exact path='/login' component={Login} />
                   <Route exact path='/register' component={Register} />
