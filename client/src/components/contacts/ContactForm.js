@@ -76,14 +76,16 @@ const ContactForm = () => {
                 value="personal"
                 checked={type === "personal"}
                 onChange={onChange}
-            /> Personal{' '}
+            />{' '}
+            Personal{' '}
             <input
                 type="radio"
                 name="type"
                 value="professional"
                 checked={type === "professional"}
                 onChange={onChange}
-            /> Professional{' '}
+            />{' '}
+            Professional
             <div>
                 <input
                     type="submit"
