@@ -35,7 +35,7 @@ const Login = props => {
 
     const onSubmit = e => {
         e.preventDefault();
-        if(email === '' || password === '') {
+        if (email === '' || password === '') {
             setAlert('Please fill in all fields', 'danger');
         } else {
             login({
