@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Contact Manager Application",
   "main": "Server.js",
+  "engines": {
+    "node": "11.8.0"
+  },
   "scripts": {
     "start": "node Server.js",
     "server": "nodemon Server.js",
